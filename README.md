@@ -8,8 +8,10 @@ Go Lang library to send messages to Slack via Incoming Webhooks.
 ```go
 package main
 
-import "github.com/ashwanthkumar/slack-go-webhook"
-import "fmt"
+import (
+    slack "github.com/ashwanthkumar/slack-go-webhook"
+    "fmt"
+)
 
 func main() {
     webhookUrl := "https://hooks.slack.com/services/foo/bar/baz"
